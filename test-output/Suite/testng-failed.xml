@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.seleniumtest.testNG.HardAssertCode">
+        <methods>
+          <include name="loginPage"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="logoutPage"/>
+        </methods>
+      </class> <!-- com.seleniumtest.testNG.HardAssertCode -->
+      <class name="com.seleniumtest.testNG.CalculatorTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="calculatorOp"/>
+          <include name="CalculatorOp"/>
+        </methods>
+      </class> <!-- com.seleniumtest.testNG.CalculatorTest -->
+      <class name="com.seleniumtest.testNG.BasicWebObject">
+        <methods>
+          <include name="checkBox"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="radioButton"/>
+          <include name="textBoxField"/>
+          <include name="listBox"/>
+          <include name="dropDownlist"/>
+        </methods>
+      </class> <!-- com.seleniumtest.testNG.BasicWebObject -->
+      <class name="com.seleniumtest.testNG.MutualLoginTest">
+        <methods>
+          <include name="login_Admin"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.seleniumtest.testNG.MutualLoginTest -->
+      <class name="com.seleniumtest.testNG.CssLinktext">
+        <methods>
+          <include name="css"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.seleniumtest.testNG.CssLinktext -->
+      <class name="com.seleniumtest.testNG.TestLogin">
+        <methods>
+          <include name="loginAltoroMutual"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.seleniumtest.testNG.TestLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
